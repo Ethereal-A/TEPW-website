@@ -4,7 +4,7 @@ export function ProblemCard() {
   {/* Image at the top */}
   <div className="relative -mx-8 -mt-8 mb-6 lg:-mx-10 lg:-mt-10 h-64">
     <img 
-      src="/src/assets/images/algea-mildew.png" 
+      src="/images/algea-mildew.png" 
       alt="Algae and mildew on exterior surface"
       className="w-full h-full object-cover"
     />

@@ -10,7 +10,7 @@ export function BeforeAfterCard() {
         {/* BEFORE */}
         <div className="flex-1 w-full bg-gray-200 aspect-[4/3] rounded-2xl overflow-hidden relative">
           <img 
-            src="/src/assets/images/driveway-before.png" 
+            src="/images/driveway-before.png" 
             alt="Dirty driveway before power washing"
             className="w-full h-full object-cover"
           />
@@ -24,7 +24,7 @@ export function BeforeAfterCard() {
         {/* AFTER */}
         <div className="flex-1 w-full bg-gray-200 aspect-[4/3] rounded-2xl overflow-hidden relative">
           <img 
-            src="/src/assets/images/driveway-after.png" 
+            src="/images/driveway-after.png" 
             alt="Clean driveway after power washing"
             className="w-full h-full object-cover"
           />
