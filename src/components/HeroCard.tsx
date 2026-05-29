@@ -22,24 +22,15 @@ export function HeroCard() {
         </h1>
         
         <p className="text-gray-600 text-lg mb-10 leading-relaxed max-w-xl">
-          Professional exterior cleaning that restores your property's value in hours. Fast, reliable, and Texan-certified quality.
+          Professional exterior cleaning that restores your property's value in hours. Book online in under 60 seconds — pick your service, pick your time, done.
         </p>
 
-        {/* Primary + Secondary CTA row */}
-        <div className="flex flex-col sm:flex-row gap-4 mb-6">
-          {/* Primary CTA — direct booking */}
+        {/* Single primary CTA */}
+        <div className="mb-6">
           <BookingButton size="lg" source="hero-primary" label="Book Online" />
-
-          {/* Secondary CTA — quote form for variable-price jobs */}
-          <a
-            href="#quote"
-            className="inline-flex items-center justify-center bg-transparent border-2 border-[#0B3A63] text-[#0B3A63] hover:bg-[#0B3A63] hover:text-white px-8 py-4 rounded-xl font-bold uppercase tracking-wide transition-colors text-center"
-          >
-            Request a Quote
-          </a>
         </div>
 
-        {/* Tertiary CTA — proof link, lower visual weight */}
+        {/* Tertiary link: proof */}
         <a
           href="#results"
           className="inline-flex items-center gap-1.5 text-gray-500 hover:text-brand-navy font-semibold text-sm uppercase tracking-widest mb-10 transition-colors group"
