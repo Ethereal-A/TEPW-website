@@ -131,7 +131,7 @@ export function Terms() {
             </P>
             <P>
               <strong>Water usage.</strong> Water usage will vary depending on size and condition
-              of the area being cleaned. We are not responsible water utility charches resulting
+              of the area being cleaned. We are not responsible water utility charges resulting
               from normal service operations.
             </P>
           </Section>
