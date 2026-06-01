@@ -3,18 +3,18 @@ import { BookingButton } from './BookingButton';
 
 export function Navbar2() {
   return (
-    <nav className="w-full bg-white rounded-3xl shrink-0 border border-gray-100 shadow-sm flex items-center justify-between px-6 py-4">
-      {/* Logo block */}
+    <nav className="w-full bg-white rounded-3xl shrink-0 border border-gray-100 shadow-sm flex items-center justify-between px-4 sm:px-6 py-4">
+      {/* Logo block — "POWER WASHING" is now dominant, matching the flyer */}
       <div className="flex items-center gap-3">
-        <div className="bg-brand-navy text-white font-display font-black italic px-3 py-1 rounded text-2xl flex items-center tracking-tighter">
+        <div className="bg-brand-navy text-white font-display font-bold italic px-3 py-1 rounded text-2xl flex items-center tracking-tight">
           TEPW
         </div>
         <div className="flex flex-col leading-none">
-          <span className="font-display font-medium text-[15px] uppercase tracking-tight text-brand-navy">
+          <span className="font-sans font-semibold text-[11px] sm:text-[13px] uppercase tracking-wide text-brand-navy mb-0.5 sm:mb-1">
             Texas Express
           </span>
-          <span className="text-brand-red font-bold text-[8px] tracking-[0.25em] uppercase">
-             Power Washing
+          <span className="text-brand-red font-display font-bold text-base sm:text-xl tracking-wider uppercase leading-none">
+            Power Washing
           </span>
         </div>
       </div>
