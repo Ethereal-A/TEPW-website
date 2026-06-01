@@ -131,7 +131,7 @@ export function Terms() {
             </P>
             <P>
               <strong>Water usage.</strong> Water usage will vary depending on size and condition
-              of the area being cleaned. We are not responsible water utility charges resulting
+              of the area being cleaned. We are not responsible for water utility charges resulting
               from normal service operations.
             </P>
           </Section>
@@ -213,8 +213,8 @@ export function Terms() {
               We routinely photograph our work for portfolio, social media, marketing, and
               quality-control purposes. By booking with us, you grant TEPW a perpetual,
               royalty-free license to use photos and videos of the cleaned surfaces and exterior
-              of your property in our marketing materials, social media posts, website, and
-              advertising.
+              of your property solely for TEPW's marketing materials, social media posts, website, and
+              advertising unless explicitly advised against by you.
             </P>
             <P>
               <strong>What we do NOT photograph or share:</strong> interior of any structure,
