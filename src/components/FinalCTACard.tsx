@@ -62,7 +62,7 @@ export function FinalCTACard() {
           </a>
         </div>
 
-        {/* Mobile-only: Book Online button (since circle is desktop-only) */}
+        {/* Mobile-only: Book Online button + terms agreement (since circle is desktop-only) */}
         <div className="lg:hidden mt-6 pt-6 border-t border-white/10">
           <BookingButton
             size="lg"
@@ -70,6 +70,16 @@ export function FinalCTACard() {
             source="final-cta-mobile"
             label="Book Online Instantly"
           />
+          <p className="text-white/40 text-xs text-center mt-3 leading-relaxed">
+            By booking, you agree to our{' '}
+            <a
+              href="/terms"
+              className="underline hover:text-white transition-colors"
+            >
+              Terms of Service
+            </a>
+            .
+          </p>
         </div>
       </div>
 
@@ -102,6 +112,16 @@ export function FinalCTACard() {
         </motion.a>
         <p className="text-white/40 text-xs uppercase tracking-widest text-center">
           Pick service · Pay deposit · Done
+        </p>
+        <p className="text-white/40 text-xs text-center mt-1 leading-relaxed max-w-[16rem]">
+          By booking, you agree to our{' '}
+          <a
+            href="/terms"
+            className="underline hover:text-white transition-colors"
+          >
+            Terms of Service
+          </a>
+          .
         </p>
       </div>
     </div>
