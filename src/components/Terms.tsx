@@ -130,9 +130,9 @@ export function Terms() {
               trip fee.
             </P>
             <P>
-              <strong>Water usage.</strong> A typical residential cleaning uses 100–300 gallons
-              of water. We are not responsible for water bill increases from normal service
-              usage.
+              <strong>Water usage.</strong> Water usage will vary depending on size and condition
+              of the area being cleaned. We are not responsible water utility charches resulting
+              from normal service operations.
             </P>
           </Section>
 
