@@ -295,7 +295,7 @@ export function Terms() {
               <p className="text-gray-700 mb-1">
                 Web:{' '}
                 <a href="/" className="text-brand-red font-bold hover:underline">
-                  tepw-website.vercel.app
+                  txexpresspw.com
                 </a>
               </p>
               <p className="text-gray-700">
