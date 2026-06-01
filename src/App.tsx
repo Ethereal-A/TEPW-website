@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navbar2 } from './components/Navbar2';
 import { HeroCard } from './components/HeroCard';
 import { WhyChooseUsCard } from './components/WhyChooseUsCard';
@@ -9,8 +9,27 @@ import { BeforeAfterCard } from './components/BeforeAfterCard';
 import { TestimonialsCard } from './components/TestimonialsCard';
 import { FinalCTACard } from './components/FinalCTACard';
 import { Footer } from './components/Footer';
+import { Terms } from './components/Terms';
 
 export default function App() {
+  // Simple client-side routing. Tracks the current pathname.
+  const [pathname, setPathname] = useState(
+    typeof window !== 'undefined' ? window.location.pathname : '/'
+  );
+
+  // Listen for browser back/forward button clicks.
+  useEffect(() => {
+    const handlePopState = () => setPathname(window.location.pathname);
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  // Route handling — add more routes here in the future.
+  if (pathname === '/terms' || pathname === '/terms/') {
+    return <Terms />;
+  }
+
+  // Default route — homepage
   return (
     <div className="min-h-screen font-sans bg-[#F4F5F7] p-2 sm:p-4 lg:p-6 text-brand-navy selection:bg-brand-red selection:text-white">
       <div className="max-w-[1400px] mx-auto w-full flex flex-col gap-4">
@@ -56,4 +75,3 @@ export default function App() {
     </div>
   );
 }
-
